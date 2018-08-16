@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+body{
+  line-height: 150%;
+}
+
+header,nav,.topicpath,.contents,footer{
+  width: 840px;
+  margin: 0 auto;
+}
+
+nav{
+  margin-bottom: 15PX;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+nav ul li{
+  width: 210px;
+}
+
+nav ul li a{
+  display: block;
+  height: 0;
+  padding-top: 64px;
+}
+
+nav ul li.nav_introduction a{
+  background-image: url(../images/btn_navigation1.png);
+}
+
+nav ul li.nav_schedule a{
+  background-image: url(../images/btn_navigation2.png);
+}
+
+nav ul li.nav_gallery a{
+  background-image: url(../images/btn_navigation3.png);
+}
+
+nav ul li.nav_tickets a{
+  background-image: url(../images/btn_navigation4.png);
+}
+
+main{
+  width: 610px;
+}
+
+.sub{
+  width: 200px;
+}
+
+.contents{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  clear: both;
+}
+
+main h1{
+  margin-bottom: 30px;
+  padding: 35px 20px;
+  background-image: url(../images/h1_top.png),url(../images/h1_bottom.png);
+  background-repeat: no-repeat;
+  background-position: center top, center bottom;
+  font-size: 175%;
+  text-align: center;
+}
+
+#introduction.nav_introduction a,
+#schedule.nav_schedule a,
+#gallery.nav_gallery a,
+#tickets.nav_tickets a,
+nav ul li a:hover{
+  background-position: 0 -64px;
+}
+
+.pagetop a{
+  float: right;
+}
+
+.info_field{
+  clear: both;
+}
+
+.pagetop a img{
+  padding: 0 10px;
+}
+
+.info_field p{
+  margin: 0;
+}
+
+.pagetop a{
+  padding: 0 0 10px 0;
+}
+
+main section h2 img{
+  padding: 5px 10px;
+}
+
+.Copyright{
+  text-align: center;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* トップページ ここから↓ */
+.topics ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.topics ul li{
+  margin-top: 1.5em;
+  padding: 0 0 1.5em 9.3em;
+  border-bottom: 1px dotted #666666;
+  text-indent:-9.3em;
+}
+
+
+
+footer div{
+  background-image: url(../images/footer_bottom.png),url(../images/footer_top.png);
+  background-repeat: no-repeat;
+  background-position: bottom center,top center;
+}
+/* トップページ ここまで↑ */
+
+/* 「展覧会について」ページ ここから↓ */
+.sec_field{
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.sec_field:last-child{
+  margin-bottom: 0;
+}
+/* 「展覧会について」ページ ここまで↑ */
+
+/* 「スケジュール」ページ ここから↓ */
+table thead tr{
+  background-color: #333333;
+  color:#ffffff;
+}
+
+table tbody tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+/* 「スケジュール」ページ ここまで↑ */
+
+/* 「作品紹介」ページ ここから↓ */
+.pic_field figure{
+  width: 290px;
+  margin: 0 30px 0 0;
+  float: left;
+}
+
+.pic_field figure:last-child{
+  margin-right: 0;
+}
+
+
+/* 「作品紹介」ページ ここまで↑ */
+
+/* 「前売り券申し込み」ページ ここから↓ */
+input[type="text"],
+input[type="email"]{
+  width: 250px;
+  background-color: #ffcccc;
+}
+
+
+
+/* 「前売り券申し込み」ページ ここまで↑ */
+
+
+.topicpath ol li{
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}
+
+.topicpath ol {
+  padding-left: 0;
+}
