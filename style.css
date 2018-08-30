@@ -35,19 +35,19 @@ nav ul li a{
 }
 
 nav ul li.nav_introduction a{
-  background-image: url(../images/btn_navigation1.png);
+  background-image: url(images/btn_navigation1.png);
 }
 
 nav ul li.nav_schedule a{
-  background-image: url(../images/btn_navigation2.png);
+  background-image: url(images/btn_navigation2.png);
 }
 
 nav ul li.nav_gallery a{
-  background-image: url(../images/btn_navigation3.png);
+  background-image: url(images/btn_navigation3.png);
 }
 
 nav ul li.nav_tickets a{
-  background-image: url(../images/btn_navigation4.png);
+  background-image: url(images/btn_navigation4.png);
 }
 
 main{
@@ -68,7 +68,7 @@ main{
 main h1{
   margin-bottom: 30px;
   padding: 35px 20px;
-  background-image: url(../images/h1_top.png),url(../images/h1_bottom.png);
+  background-image: url(images/h1_top.png),url(images/h1_bottom.png);
   background-repeat: no-repeat;
   background-position: center top, center bottom;
   font-size: 175%;
@@ -129,7 +129,7 @@ main section h2 img{
 
 
 footer div{
-  background-image: url(../images/footer_bottom.png),url(../images/footer_top.png);
+  background-image: url(images/footer_bottom.png),url(images/footer_top.png);
   background-repeat: no-repeat;
   background-position: bottom center,top center;
 }
