@@ -18,16 +18,15 @@
 				 $format .= ' height="' . $image[2] . '"';
 				 $format .= ' alt="' . get_bloginfo( 'name' ) . '">';
 				 echo $format;
-
 				 ?>
       </a>
     </h1>
   </header>
-	<nav>
-		<ul>
-			<li class="nav_introduction"><a href="introduction.html">展覧会について</a></li>
-			<li class="nav_schedule"><a href="schedule.html">スケジュール</a></li>
-			<li class="nav_gallery"><a href="gallery.html">作品紹介</a></li>
-			<li class="nav_tickets"><a href="tickets.html">前売り券申し込み</a></li>
-		</ul>
+	<nav class="nav_global">
+		<?php wp_nav_menu(
+			array(
+				'theme_location' => 'primary1'
+			)
+		);
+		?>
 	</nav>
