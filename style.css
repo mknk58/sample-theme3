@@ -34,19 +34,19 @@ nav ul li a{
   padding-top: 64px;
 }
 
-nav ul li.nav_introduction a{
+.nav_global li:nth-child(1) a{
   background-image: url(images/btn_navigation1.png);
 }
 
-nav ul li.nav_schedule a{
+.nav_global li:nth-child(2) a{
   background-image: url(images/btn_navigation2.png);
 }
 
-nav ul li.nav_gallery a{
+.nav_global li:nth-child(3) a{
   background-image: url(images/btn_navigation3.png);
 }
 
-nav ul li.nav_tickets a{
+.nav_global li:nth-child(4) a{
   background-image: url(images/btn_navigation4.png);
 }
 
@@ -143,6 +143,10 @@ footer div{
 
 .sec_field:last-child{
   margin-bottom: 0;
+}
+
+.sec-field img {
+	float: left;
 }
 /* 「展覧会について」ページ ここまで↑ */
 
