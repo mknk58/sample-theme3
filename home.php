@@ -21,10 +21,16 @@
 		<section class="topics">
 			<h2>トピックス</h2>
 			<ul>
+				<?php while( have_posts() ) : the_post(); ?>
 				<li>
-					<time datetime="2015-09-20">2015年09月20日</time>
-					総入場者数が1万人を突破いたしました。
+					<time datetime="<?php the_time('Y-m-d'); ?>">
+						<?php the_time( get_option( 'date_format' ) ); ?>
+					</time>
+					<a href="<?php the_permalink(); ?>">
+						<?php the_title(); ?>
+					</a>
 				</li>
+			<?php endwhile ?>
 
 			</ul>
 		</section>
